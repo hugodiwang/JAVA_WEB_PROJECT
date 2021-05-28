@@ -1,0 +1,66 @@
+mvc
+view - controller - model
+
+MODEL:
+名字 。。。Service 业务逻辑
+
+
+控制器 servlet
+html->action="url"->servlet
+从request读数据
+处理数据
+把结果放在request的attr里面
+转发 getRequestDispatcher -> result.jsp
+
+view jsp/freemarker
+
+工程结构
+/src java
+/webapp
+	/css
+	/js
+	/image
+	/upload
+	/WEB-INF
+		/jsp
+		/lib
+		/classes
+		/xml
+		
+com.imooc.mgallery
+	/controller - serlvet
+	/service - java
+	/dao data access object
+	/entity 存放实体类 JAVABean
+	/utils 通用工具类
+
+dao 只负责对数据进行增删改查
+eg class PaintingDao{
+		public void append
+		public void update
+		public void delete
+		public void findAll
+
+service 持久化时用dao
+分层逐级调用
+controller不能调用dao
+
+JavaBean
+格式要求
+通常用于保存数据
+创建一个类 用来保存数据 与xml json互动
+类是public
+属性是私有化
+有get/set方法
+有constructor
+
+思路：
+1 paintingDao -- xml, 分页
+2 paintingService -- dao
+3 paintingController -- paintingService
+
+XML -> singleton xmldatasource -> dao,dao,dao
+
+
+}
+

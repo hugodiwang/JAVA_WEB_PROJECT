@@ -1,0 +1,141 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.header{
+  margin: 25px auto;
+  width: 1200px;
+}
+.header .logo{
+  float:left;
+  position: relative;
+}
+
+.header .menu ul{
+  display: none;
+  list-style: none;
+}
+.header .menu ul li{
+  margin-top: 7px;
+  text-align: left;
+}
+.header .menu .menu_title{
+  border-bottom: 1px solid black;
+  padding-bottom: 2px;
+  width: 80px;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+.header .menu{
+  font-size: 23px;
+  float:left;
+  position: relative;
+  margin: 0 auto auto 30px;
+}
+/* manu的浮动事件 对ul设置 block 块状 */
+/* .header .menu:hover ul{
+  display:block;
+} */
+
+.header .auth{
+  float: right;
+
+}
+.header .auth ul li{
+  float:left;
+  margin-right: 70px;
+  margin-top: 0;
+  list-style: none;
+  font-size: 23px;
+}
+
+
+.content{
+  width: 1200px;
+  margin: 25px auto;
+}
+.content .banner .banner-image{
+  margin-top: 30px;
+}
+.content .content-img ul{
+  width: 1380px;
+}
+.content .content-img ul li{
+  width: 280px;
+  float:left;
+  margin: 0 180px 60px 0;
+  list-style: none;
+  margin-top: 20px;
+  height: 450px;
+  box-shadow: 3px 3px 8px 8px #ccc;
+}
+.content-img .goods_info{
+  width:200px;
+  margin-left: 40px;
+  margin-right: 30px;
+}
+.goods_info h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.goods_info p{
+  line-height: 20px;
+}
+.content-img .goods_info .price_cart{
+  margin-top: 5px;
+}
+.content-img .goods_info .price_cart .price{
+  height: 35px;
+  width: 50px;
+  float:left;
+  margin-top: 7px;
+}
+
+.content-img .goods_info .price_cart .cart{
+  height:35px;
+  width:120px;
+  float:right;
+}
+
+.page-nav{
+  width: 1200px;
+  height: 60px;
+  line-height: 60px;
+  /* border: 1px solid black; */
+  overflow: hidden;
+}
+.page-nav ul{
+  margin: auto;
+  overflow: hidden;
+  width:500px;
+}
+.page-nav ul li{
+  float:left;
+  margin-right: 20px;
+  list-style: none;
+}
+.page-nav .first{
+  border-radius: 50%;
+  background-color: #c5c5c5;
+  padding:5px 10px;
+}
+
+.footer{
+  width: 1200px;
+  height:100px;
+  margin: 20px auto;
+  border-top: 1px solid black;
+  overflow: hidden;
+}
+.footer p{
+  text-align: center;
+  line-height: 50px;
+}
+.footer span{
+  color: red;
+}
+

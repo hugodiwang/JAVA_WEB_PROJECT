@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<painting id="1">
+		<pname>art1</pname>
+		<category>1</category>
+		<price>3800</price>
+		<preview>upload/1.PNG</preview>
+		<description>this is a description</description>
+	</painting>
+	<painting id="2">
+		<pname>art2</pname>
+		<category>2</category>
+		<price>3800</price>
+		<preview>upload/2.PNG</preview>
+		<description>this is a description</description>
+	</painting>
+		<painting id="3">
+		<pname>art3</pname>
+		<category>2</category>
+		<price>3800</price>
+		<preview>upload/3.PNG</preview>
+		<description>this is a description</description>
+	</painting>
+		<painting id="4">
+		<pname>art4</pname>
+		<category>1</category>
+		<price>3800</price>
+		<preview>upload/4.PNG</preview>
+		<description>this is a description</description>
+	</painting>
+		<painting id="5">
+		<pname>art5</pname>
+		<category>1</category>
+		<price>3800</price>
+		<preview>upload/5.PNG</preview>
+		<description>this is a description</description>
+	</painting>	
+</root>
