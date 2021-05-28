@@ -1,0 +1,3 @@
+This is my first java web project, where I first use html, css and js knowledge to build a static web page. After that, we build our dynamic "mgalary" web with mvc design pattern.
+Data is stored in xml foramt and parsed later by dao4j package. Serlvet plays the role of controller which connects service(model) and jsp(view). At last, we change the html to jsp 
+with the help of the jstl to present our dynamic web page.
