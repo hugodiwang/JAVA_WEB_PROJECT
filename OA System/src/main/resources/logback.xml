@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- APPENDER 是输出器 在哪里打印输出 level 日志的级别 -5 按5个字符右对齐 logger 哪个类产生的日志 超过36个字符对日志进行压缩  %msg 日志内容-->
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+
+    </appender>
+    <!-- 只要是debug级别及以上的信息 都会按照 “console”的样式
+    输出级别 从高到低
+    error
+    warn
+    info
+    debug
+    trace
+    -->
+    <root level="debug">
+        <appender-ref ref="console"></appender-ref>
+    </root>
+</configuration>
