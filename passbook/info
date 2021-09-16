@@ -1,0 +1,3 @@
+This is the third project in which I develop the backend service of a passbook app. Merchants can do registration and their info is saved in Mysql. Besides, they can broadcast some passes to
+clients through the kafka service. The pass info is saved in hbase and the token of the pass is saved in radis. As a client, you can use any available pass if some constraints are
+satisfied(time, number limit,...). Besides, you can write some comments about the app or the passes. Also codes are written in JAVA with the help of maven, spring boot, JPA.
